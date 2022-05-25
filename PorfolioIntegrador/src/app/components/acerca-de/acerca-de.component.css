@@ -19,15 +19,24 @@ div{
             width: 20%;
             border-radius:46%;
             left: 40%;
-            top:50px;
+            top:120px;
     }
 }
 @media (max-width: 575px){
     #fotoPerfil{
             position: absolute;
-            width: 45%;
+            width: 25%;
             border-radius:46%;
-            left:28%;
-            top:50px;
+            left:36%;
+            top:100px;
+    }
+}
+@media (max-width: 266px){
+    #fotoPerfil{
+            position: absolute;
+            width: 35%;
+            border-radius:46%;
+            left:30%;
+            top:120px;
     }
 }

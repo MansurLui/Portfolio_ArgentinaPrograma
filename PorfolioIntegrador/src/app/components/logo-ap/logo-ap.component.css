@@ -1,3 +1,24 @@
+/*  --logo fijo--
 #Logo{
     width: 150px;
+}
+*/
+
+@media (min-width: 576px){
+    #Logo{
+            position: absolute;
+            width: 140px;
+    }
+}
+@media (max-width: 575px){
+    #Logo{
+            position: absolute;
+            width: 110px;
+    }
+}
+@media (max-width: 270px){
+    #Logo{
+            position: absolute;
+            width: 80px;
+    }
 }
