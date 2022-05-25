@@ -38,9 +38,9 @@ div{
 @media (max-width: 575px){
     #fotoPerfil{
             position: absolute;
-            width: 45%;
+            width: 35%;
             border-radius:46%;
-            left:26%;
+            left:35%;
             top:190px;
     }
 }
