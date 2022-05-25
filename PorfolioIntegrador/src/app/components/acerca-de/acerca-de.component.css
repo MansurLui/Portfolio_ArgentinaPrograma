@@ -9,34 +9,46 @@ div{
 
 #nombre{
     font-weight: bold;
-    margin-top: 10%;
+    margin-top: 25%;
+}
+#acecademi{
+    margin-top: 5%;
 }
 
-/* estilos de la foto de perfil */ 
+/* estilos de la foto de perfil */
+@media (max-width: 900px){
+    #fotoPerfil{
+            position: absolute;
+            width: 15%;
+            border-radius:46%;
+            left: 40%;
+            top:150px;
+    }
+}
 @media (min-width: 576px){
     #fotoPerfil{
             position: absolute;
             width: 20%;
             border-radius:46%;
             left: 40%;
-            top:120px;
+            top:188px;
     }
 }
 @media (max-width: 575px){
     #fotoPerfil{
             position: absolute;
-            width: 25%;
+            width: 45%;
             border-radius:46%;
-            left:36%;
-            top:100px;
+            left:26%;
+            top:190px;
     }
 }
 @media (max-width: 266px){
     #fotoPerfil{
             position: absolute;
-            width: 35%;
+            width: 50%;
             border-radius:46%;
-            left:30%;
-            top:120px;
+            left:26%;
+            top:205px;
     }
 }
