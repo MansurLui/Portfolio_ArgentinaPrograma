@@ -2,3 +2,13 @@ div{
     /*background-color: black;*/
     text-align: center;
 }
+
+.row{
+    padding: 20px;
+}
+
+@media (min-width:760px){
+    #progreso{
+        padding: 20px;
+    }
+}
