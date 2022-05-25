@@ -3,16 +3,17 @@
 }
 
 div{
-    /*background-color: black;*/
+    background-color: black;
     text-align: center;
+    color:white;
 }
 
 #nombre{
     font-weight: bold;
-    margin-top: 26%;
+    margin-top: 15.9%;
 }
 #acecademi{
-    margin-top: 6%;
+    margin-top: 4%;
 }
 
 /* estilos de la foto de perfil */

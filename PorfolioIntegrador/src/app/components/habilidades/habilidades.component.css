@@ -1,14 +1,11 @@
 div{
-    /*background-color: black;*/
+    background-color: black;
     text-align: center;
+    color:white;
 }
 
 .row{
+    /* background-color:black; */
     padding: 20px;
 }
 
-@media (min-width:760px){
-    #progreso{
-        padding: 20px;
-    }
-}

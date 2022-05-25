@@ -2,8 +2,10 @@
     padding:20px;
 }
 
-.div{
-    /*background-color: black;*/
+div{
+    background-color: black;
+    text-align: center;
+    color:white;
 }
 
 h2, h3{
