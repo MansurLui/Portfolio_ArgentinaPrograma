@@ -22,3 +22,14 @@
             width: 80px;
     }
 }
+
+ #Logo{
+    position: fixed;
+    padding: 10px;
+ }
+#redes{
+    position: fixed;
+    top: 10px;
+    width: 50px;
+    padding: 10px;
+ }

@@ -8,10 +8,10 @@ div{
    padding:20px; 
 }
 
-/*
+
 .container{
     width:auto;
-}*/
+}
 
 .parte1, .parte2{
     display: inline-block;
@@ -24,3 +24,6 @@ div{
     border-radius: 15%;
 }
 
+h1, h2, p{
+    text-align: center;
+}
