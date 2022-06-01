@@ -2,3 +2,7 @@ div{
     background-color:black;
 }
 
+#botonLogin{
+    margin-right: 0.5em;
+    float: right;
+}

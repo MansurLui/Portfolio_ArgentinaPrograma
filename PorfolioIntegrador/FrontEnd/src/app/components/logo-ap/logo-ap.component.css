@@ -8,28 +8,48 @@
     #Logo{
             position: absolute;
             width: 140px;
+            padding: 10px;
+            left:10px;
     }
+    #botonLogin{
+        position: absolute;
+        width: 100px;
+        right:50px;
+        top:20px;
+   }
 }
 @media (max-width: 575px){
     #Logo{
             position: absolute;
             width: 110px;
+            padding: 10px;
     }
+    #botonLogin{
+        position: absolute;
+        width: 70px;
+        right:30px;
+        top:10px;
+   }
 }
 @media (max-width: 270px){
     #Logo{
             position: absolute;
             width: 80px;
     }
+    #botonLogin{
+        position: absolute;
+        width: 30%;
+        right:20px;
+        top:10px;
+   }
 }
 
  #Logo{
     position: fixed;
     padding: 10px;
  }
-#redes{
+
+ #botonLogin{
     position: fixed;
-    top: 10px;
-    width: 50px;
     padding: 10px;
- }
+}
