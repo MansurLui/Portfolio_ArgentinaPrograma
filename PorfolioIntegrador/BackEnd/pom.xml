@@ -8,13 +8,13 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.PortfolioArgPrograma</groupId>
-	<artifactId>agus</artifactId>
+	<groupId>com.portfolio</groupId>
+	<artifactId>agustin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>porfolio</name>
-	<description>Portfolio de agus</description>
+	<name>agustin</name>
+	<description>portfolio argentina programa</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>18</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
