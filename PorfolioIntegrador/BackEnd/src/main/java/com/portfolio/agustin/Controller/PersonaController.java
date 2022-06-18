@@ -25,15 +25,14 @@ public class PersonaController {
     }
     
     @PostMapping("/personas/crear")
-    public String createPersona(@RequestBody Persona persona){
+    public void createPersona(@RequestBody Persona persona){
         ipersonaService.savePersona(persona);
-        return "persona creada correctamente";
+        
     }
     
-    @DeleteMapping("/personas/borrar/{id}")
-    public String deletePersona(@PathVariable Long id){
+    @DeleteMapping("personas/borrar/{id}")
+    public void deletePersona(@PathVariable Long id){
         ipersonaService.deletePersona(id);
-        return "persona eliminada correctamente";
     }
     
     /**
