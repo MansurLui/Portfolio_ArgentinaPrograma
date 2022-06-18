@@ -16,4 +16,14 @@ export class PersonaService {
   createPersona(persona:Persona){
     return this.http.post<Persona>("http://localhost:8080/personas/crear",persona);
   }
-}
+  getPersonaId(id:number){
+    return this.http.get<Persona>("http://localhost:8080/personas/"+id);
+  }
+  editPersona(persona:Persona){
+    return this.http.put<Persona>("http://localhost:8080/personas/editar/"+persona.id,persona)
+  }
+  deletePersona(persona:Persona){
+    return this.http.delete<Persona>("http://localhost:8080/personas/borrar/"+persona.id);
+  }
+  }
+

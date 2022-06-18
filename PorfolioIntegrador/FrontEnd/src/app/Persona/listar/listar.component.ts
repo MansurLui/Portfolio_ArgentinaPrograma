@@ -10,11 +10,22 @@ import { PersonaService } from 'src/app/service/persona.service';
 })
 export class ListarComponent implements OnInit {
 
-  personas: Persona[]=[];
+  persona: Persona[]=[];
   constructor(private personaService: PersonaService,private router: Router) { }
 
   ngOnInit(): void {
-    this.personaService.getPersona().subscribe( data =>{this.personas = data})
+    this.personaService.getPersona().subscribe( data =>{this.persona = data})
   }
 
+  Editar(persona:Persona): void {
+    localStorage.setItem("id",persona.id.toString());
+    this.router.navigate(["Edit"])
+  }
+
+  Delete(persona:Persona): void {
+    this.personaService.deletePersona(persona)
+    .subscribe(data =>{this.persona = this.persona.filter(p=>p!==persona);
+    alert("usuario eliminado...");
+    })
+  }
 }
